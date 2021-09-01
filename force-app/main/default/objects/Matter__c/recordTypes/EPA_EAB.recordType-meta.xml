@@ -1,0 +1,253 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RecordType xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>EPA_EAB</fullName>
+    <active>true</active>
+    <label>EPA EAB</label>
+    <picklistValues>
+        <picklist>Stage__c</picklist>
+        <values>
+            <fullName>Intake</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Status__c</picklist>
+        <values>
+            <fullName>Active</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Closed</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Stayed</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Stayed - On Hold %28proceedings paused pending interlocutory action%29</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Statute__c</picklist>
+        <values>
+            <fullName>Clean Air Act</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Clean Water Act</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Comprehensive Environmental Response Compensation and Liability Act</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Emergency Planning and Community Right-to-Know Act</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Equal Access to Justice</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Equal Employment Opportunity</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Federal Insecticide Act</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Subtype__c</picklist>
+        <values>
+            <fullName>CAA %28not 112%28r%29%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CAA 112%28r%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CAFO</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CAFO w%2FCompliance Order</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CAFO w%2FInjunctive Relief</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CAFO w%2FSEP</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CERCLA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CWA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>ESA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>ESA w%2F Compliance</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Emergency</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>On Consent %28AOC%29 Plan</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Penalty %28notice pleading%29 w%2F Compliance Order</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Penalty %28proposed amount%29 w%2F Compliance Order</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Penalty only %28notice pleading%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Penalty only %28w%2Fproposed amount%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>RCRA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>SDWA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Sample1</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>TSCA 207</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Unilateral %28UAO%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>no penalty</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Type__c</picklist>
+        <values>
+            <fullName>40 C%2EF%2ER%2E 1%2E25%28e%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>ADR</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Administrative Order</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CAFO %28using 22%2E13%28b%29 to simultaneously commence and conclude%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CERCLA 106%28b%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CERCLA 107%28r%29 Agreement</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CERCLA 122%28h%29 Cost Recovery Settlement</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CERCLA Lien %E2%80%93 107%28l%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CERCLA Prospective Purchaser Agreement</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Complaint</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>EAJA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>EEO</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Enforcement Appeals</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Federal Facility Compliance Agreement</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Field Citation %28RCRA %E2%80%93 RUST%2FLUST%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Judicial Stipulated Penalty</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Notice of Determination %28NOD%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Notice of Noncompliance %28NON%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Notice of Refusal of Admission %28FIFRA%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Notice of Violation %28NOV%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Other %28Type%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Permit Appeals</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Quick Resolution</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Stop Sale%2C Use or Removal Order %28SSURO%29 - FIFRA</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+</RecordType>

@@ -1,0 +1,49 @@
+<template>
+    <lightning-card title="Filters" icon-name="standard:calibration">
+        <div class="slds-var-m-horizontal_medium">
+            <lightning-input
+                label="Search Key"
+                type="search"
+                onchange={handleSearchKeyChange}
+            ></lightning-input>
+            <section>
+                <h1>Docket Type</h1>
+                <lightning-combobox name="type"
+                    label="Type"
+                    options={types}
+                    onchange={handleComboboxChange}
+                ></lightning-combobox>
+            </section>
+            <section>
+                <h1>Sub Type</h1>
+                <lightning-combobox name="subtype"
+                    options={subtypes}
+                    onchange={handleComboboxChange}
+                ></lightning-combobox>
+            </section>
+            <section>
+                <h1>Statute</h1>
+                <lightning-combobox name="statute"
+                    options={statutes}
+                    label="Statute"
+                    onchange={handleComboboxChange}
+                ></lightning-combobox>
+            </section>
+            <section>
+                <h1>Decision Date</h1>
+                <lightning-input
+                    type="date"
+                    label="Beginning Decision Date"
+                    value={beginningDecisionDate}
+                    onchange={handleBeginningDecisionDateChange}
+                ></lightning-input>
+                <lightning-input
+                    type="date"
+                    label="Ending Decision Date"
+                    value={endingDecisionDate}
+                    onchange={handleEndingDecisionDateChange}
+                ></lightning-input>
+            </section>
+        </div>
+    </lightning-card>
+</template>

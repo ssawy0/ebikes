@@ -1,0 +1,47 @@
+<!-- sldsValidatorIgnore -->
+<!-- sldsValidatorIgnore -->
+<template>
+    <lightning-card icon-name="standard:apex_plugin">
+        <template if:true={recordId}>
+            <span slot="title">{matterName}</span>
+            <lightning-button-icon
+                icon-name="utility:expand_alt"
+                slot="actions"
+                onclick={handleNavigateToRecord}
+            ></lightning-button-icon>
+            <div class="slds-var-m-horizontal_medium">
+                
+                <lightning-record-view-form
+                    record-id={recordId}
+                    onload={handleRecordLoaded}
+                    object-api-name="Matter__c"
+                    density="compact"
+                >
+                    <lightning-output-field
+                        field-name={matterNumber}
+                    ></lightning-output-field>
+                    <lightning-output-field
+                        field-name={type}
+                    ></lightning-output-field>
+                    <lightning-output-field
+                        field-name={subtype}
+                    ></lightning-output-field>
+                    <lightning-output-field
+                        field-name={statute}
+                    ></lightning-output-field>
+                    <lightning-output-field
+                    field-name={decisionDate}
+                    ></lightning-output-field>
+
+                  
+                </lightning-record-view-form>
+            </div>
+        </template>
+
+        <template if:false={recordId}>
+            <c-placeholder
+                message="Select a matter to see details"
+            ></c-placeholder>
+        </template>
+    </lightning-card>
+</template>

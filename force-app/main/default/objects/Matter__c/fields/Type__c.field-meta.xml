@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Type__c</fullName>
+    <externalId>false</externalId>
+    <label>Type</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>40 C.F.R. 1.25(e)</fullName>
+                <default>false</default>
+                <label>40 C.F.R. 1.25(e)</label>
+            </value>
+            <value>
+                <fullName>Administrative Order</fullName>
+                <default>false</default>
+                <label>Administrative Order</label>
+            </value>
+            <value>
+                <fullName>ADR</fullName>
+                <default>false</default>
+                <label>ADR</label>
+            </value>
+            <value>
+                <fullName>CAFO (using 22.13(b) to simultaneously commence and conclude)</fullName>
+                <default>false</default>
+                <label>CAFO (using 22.13(b) to simultaneously commence and conclude)</label>
+            </value>
+            <value>
+                <fullName>CERCLA 106(b)</fullName>
+                <default>false</default>
+                <label>CERCLA 106(b)</label>
+            </value>
+            <value>
+                <fullName>CERCLA 107(r) Agreement</fullName>
+                <default>false</default>
+                <label>CERCLA 107(r) Agreement</label>
+            </value>
+            <value>
+                <fullName>CERCLA 122(h) Cost Recovery Settlement</fullName>
+                <default>false</default>
+                <label>CERCLA 122(h) Cost Recovery Settlement</label>
+            </value>
+            <value>
+                <fullName>CERCLA Lien – 107(l)</fullName>
+                <default>false</default>
+                <label>CERCLA Lien – 107(l)</label>
+            </value>
+            <value>
+                <fullName>CERCLA Prospective Purchaser Agreement</fullName>
+                <default>false</default>
+                <label>CERCLA Prospective Purchaser Agreement</label>
+            </value>
+            <value>
+                <fullName>Complaint</fullName>
+                <default>false</default>
+                <label>Complaint</label>
+            </value>
+            <value>
+                <fullName>EAJA</fullName>
+                <default>false</default>
+                <label>EAJA</label>
+            </value>
+            <value>
+                <fullName>EEO</fullName>
+                <default>false</default>
+                <label>EEO</label>
+            </value>
+            <value>
+                <fullName>Enforcement Appeals</fullName>
+                <default>false</default>
+                <label>Enforcement Appeals</label>
+            </value>
+            <value>
+                <fullName>Federal Facility Compliance Agreement</fullName>
+                <default>false</default>
+                <label>Federal Facility Compliance Agreement</label>
+            </value>
+            <value>
+                <fullName>Field Citation (RCRA – RUST/LUST)</fullName>
+                <default>false</default>
+                <label>Field Citation (RCRA – RUST/LUST)</label>
+            </value>
+            <value>
+                <fullName>Improper Practice</fullName>
+                <default>false</default>
+                <label>Improper Practice</label>
+            </value>
+            <value>
+                <fullName>Judicial Stipulated Penalty</fullName>
+                <default>false</default>
+                <label>Judicial Stipulated Penalty</label>
+            </value>
+            <value>
+                <fullName>Notice of Determination (NOD)</fullName>
+                <default>false</default>
+                <label>Notice of Determination (NOD)</label>
+            </value>
+            <value>
+                <fullName>Notice of Noncompliance (NON)</fullName>
+                <default>false</default>
+                <label>Notice of Noncompliance (NON)</label>
+            </value>
+            <value>
+                <fullName>Notice of Refusal of Admission (FIFRA)</fullName>
+                <default>false</default>
+                <label>Notice of Refusal of Admission (FIFRA)</label>
+            </value>
+            <value>
+                <fullName>Notice of Violation (NOV)</fullName>
+                <default>false</default>
+                <label>Notice of Violation (NOV)</label>
+            </value>
+            <value>
+                <fullName>Other (Type)</fullName>
+                <default>false</default>
+                <label>Other (Type)</label>
+            </value>
+            <value>
+                <fullName>Permit Appeals</fullName>
+                <default>false</default>
+                <label>Permit Appeals</label>
+            </value>
+            <value>
+                <fullName>Quick Resolution</fullName>
+                <default>false</default>
+                <label>Quick Resolution</label>
+            </value>
+            <value>
+                <fullName>Specially delegated by Administrator</fullName>
+                <default>false</default>
+                <label>Specially delegated by Administrator</label>
+            </value>
+            <value>
+                <fullName>Stop Sale, Use or Removal Order (SSURO) - FIFRA</fullName>
+                <default>false</default>
+                <label>Stop Sale, Use or Removal Order (SSURO) - FIFRA</label>
+            </value>
+            <value>
+                <fullName>Sua Sponte</fullName>
+                <default>false</default>
+                <label>Sua Sponte</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

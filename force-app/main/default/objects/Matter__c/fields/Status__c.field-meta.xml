@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Status__c</fullName>
+    <externalId>false</externalId>
+    <label>Status</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Active</fullName>
+                <default>false</default>
+                <label>Active</label>
+            </value>
+            <value>
+                <fullName>Awaiting Full Payment</fullName>
+                <default>false</default>
+                <label>Awaiting Full Payment</label>
+            </value>
+            <value>
+                <fullName>Awaiting Payment - Overdue/Dunning Letter(s) Sent</fullName>
+                <default>false</default>
+                <label>Awaiting Payment - Overdue/Dunning Letter(s) Sent</label>
+            </value>
+            <value>
+                <fullName>Awaiting Payment - Referred to Treasury (should be able to add referred date)</fullName>
+                <default>false</default>
+                <label>Awaiting Payment - Referred to Treasury (should be able to add referred date)</label>
+            </value>
+            <value>
+                <fullName>Awaiting Payment - Referred to DOJ/US Attorney (should be able to add referred date)</fullName>
+                <default>false</default>
+                <label>Awaiting Payment - Referred to DOJ/US Attorney (should be able to add referred date)</label>
+            </value>
+            <value>
+                <fullName>Awaiting Payment - Bankruptcy</fullName>
+                <default>false</default>
+                <label>Awaiting Payment - Bankruptcy</label>
+            </value>
+            <value>
+                <fullName>Penalty Paid in Full - Awaiting Completion of SEP/Compliance Order/Injunctive Relief</fullName>
+                <default>false</default>
+                <label>Penalty Paid in Full - Awaiting Completion of SEP/Compliance Order/Injunctive Relief</label>
+            </value>
+            <value>
+                <fullName>No Penalty - Awaiting Completion of SEP/Compliance Order/Injunctive Relief</fullName>
+                <default>false</default>
+                <label>No Penalty - Awaiting Completion of SEP/Compliance Order/Injunctive Relief</label>
+            </value>
+            <value>
+                <fullName>Stayed - On Hold (proceedings paused pending interlocutory action)</fullName>
+                <default>false</default>
+                <label>Stayed - On Hold (proceedings paused pending interlocutory action)</label>
+            </value>
+            <value>
+                <fullName>On Appeal</fullName>
+                <default>false</default>
+                <label>On Appeal</label>
+            </value>
+            <value>
+                <fullName>Stayed</fullName>
+                <default>false</default>
+                <label>Stayed</label>
+            </value>
+            <value>
+                <fullName>Landmark</fullName>
+                <default>false</default>
+                <label>Landmark</label>
+            </value>
+            <value>
+                <fullName>Pending Federal Court Review</fullName>
+                <default>false</default>
+                <label>Pending Federal Court Review</label>
+            </value>
+            <value>
+                <fullName>Reviewed by Federal Court</fullName>
+                <default>false</default>
+                <label>Reviewed by Federal Court</label>
+            </value>
+            <value>
+                <fullName>Closed</fullName>
+                <default>false</default>
+                <label>Closed</label>
+            </value>
+            <value>
+                <fullName>Archive</fullName>
+                <default>false</default>
+                <label>Archive</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

@@ -1,0 +1,46 @@
+<template>
+    <div class="slds-card slds-var-p-around_x-small">
+        <template if:true={searchBarIsVisible}>
+            <lightning-input
+                label="Search Key"
+                type="text"
+                onchange={handleSearchKeyChange}
+                class="search-bar"
+            ></lightning-input>
+        </template>
+        <template if:true={matters.data}>
+            <template if:true={matters.data.records.length}>
+                <div class="content">
+                    <template
+                        for:each={matters.data.records}
+                        for:item="matter"
+                    >
+                    <c-matter-tile
+                            key={matter.Id}
+                            matter={matter}
+                            draggable={tilesAreDraggable}
+                            onselected={handleMatterSelected}
+                            class="slds-var-m-around_x-small"
+                        >
+                        </c-matter-tile>
+                    </template>
+                </div>
+                <c-paginator
+                    page-number={pageNumber}
+                    page-size={matters.data.pageSize}
+                    total-item-count={matters.data.totalItemCount}
+                    onprevious={handlePreviousPage}
+                    onnext={handleNextPage}
+                ></c-paginator>
+            </template>
+            <template if:false={matters.data.records.length}>
+                <c-placeholder
+                    message="There are no matters matching your current selection"
+                ></c-placeholder>
+            </template>
+        </template>
+        <template if:true={matters.error}>
+            <c-error-panel errors={matters.error}></c-error-panel>
+        </template>
+    </div>
+</template>

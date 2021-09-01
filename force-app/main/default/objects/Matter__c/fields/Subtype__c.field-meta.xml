@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Subtype__c</fullName>
+    <externalId>false</externalId>
+    <label>Subtype</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Sample1</fullName>
+                <default>false</default>
+                <label>Sample1</label>
+            </value>
+            <value>
+                <fullName>CAFO</fullName>
+                <default>false</default>
+                <label>CAFO</label>
+            </value>
+            <value>
+                <fullName>CAFO w/Compliance Order</fullName>
+                <default>false</default>
+                <label>CAFO w/Compliance Order</label>
+            </value>
+            <value>
+                <fullName>CAFO w/SEP</fullName>
+                <default>false</default>
+                <label>CAFO w/SEP</label>
+            </value>
+            <value>
+                <fullName>CAFO w/Injunctive Relief</fullName>
+                <default>false</default>
+                <label>CAFO w/Injunctive Relief</label>
+            </value>
+            <value>
+                <fullName>no penalty</fullName>
+                <default>false</default>
+                <label>no penalty</label>
+            </value>
+            <value>
+                <fullName>ESA</fullName>
+                <default>false</default>
+                <label>ESA</label>
+            </value>
+            <value>
+                <fullName>ESA w/ Compliance</fullName>
+                <default>false</default>
+                <label>ESA w/ Compliance</label>
+            </value>
+            <value>
+                <fullName>On Consent (AOC) Plan</fullName>
+                <default>false</default>
+                <label>On Consent (AOC) Plan</label>
+            </value>
+            <value>
+                <fullName>Unilateral (UAO)</fullName>
+                <default>false</default>
+                <label>Unilateral (UAO)</label>
+            </value>
+            <value>
+                <fullName>Emergency</fullName>
+                <default>false</default>
+                <label>Emergency</label>
+            </value>
+            <value>
+                <fullName>Penalty only (w/proposed amount)</fullName>
+                <default>false</default>
+                <label>Penalty only (w/proposed amount)</label>
+            </value>
+            <value>
+                <fullName>Penalty only (notice pleading)</fullName>
+                <default>false</default>
+                <label>Penalty only (notice pleading)</label>
+            </value>
+            <value>
+                <fullName>Penalty (proposed amount) w/ Compliance Order</fullName>
+                <default>false</default>
+                <label>Penalty (proposed amount) w/ Compliance Order</label>
+            </value>
+            <value>
+                <fullName>Penalty (notice pleading) w/ Compliance Order</fullName>
+                <default>false</default>
+                <label>Penalty (notice pleading) w/ Compliance Order</label>
+            </value>
+            <value>
+                <fullName>CAA (not 112(r))</fullName>
+                <default>false</default>
+                <label>CAA (not 112(r))</label>
+            </value>
+            <value>
+                <fullName>CAA 112(r)</fullName>
+                <default>false</default>
+                <label>CAA 112(r)</label>
+            </value>
+            <value>
+                <fullName>CWA</fullName>
+                <default>false</default>
+                <label>CWA</label>
+            </value>
+            <value>
+                <fullName>CERCLA</fullName>
+                <default>false</default>
+                <label>CERCLA</label>
+            </value>
+            <value>
+                <fullName>RCRA</fullName>
+                <default>false</default>
+                <label>RCRA</label>
+            </value>
+            <value>
+                <fullName>SDWA</fullName>
+                <default>false</default>
+                <label>SDWA</label>
+            </value>
+            <value>
+                <fullName>TSCA 207</fullName>
+                <default>false</default>
+                <label>TSCA 207</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

@@ -1,0 +1,14 @@
+<template>
+    <div draggable={draggable} ondragstart={handleDragStart}>
+        <a onclick={handleClick}>
+            <div class="content">
+                <div>{matterId}</div>
+                <div>
+                    <p class="title slds-align_absolute-center">{name}</p>
+                    <p class="title slds-align_absolute-center">{type}</p>
+                    <p class="title slds-align_absolute-center">{status}</p>
+                </div>
+            </div>
+        </a>
+    </div>
+</template>

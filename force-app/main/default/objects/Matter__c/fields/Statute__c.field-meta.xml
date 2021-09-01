@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Statute__c</fullName>
+    <externalId>false</externalId>
+    <label>Statute</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Clean Air Act</fullName>
+                <default>false</default>
+                <label>Clean Air Act</label>
+            </value>
+            <value>
+                <fullName>Clean Water Act</fullName>
+                <default>false</default>
+                <label>Clean Water Act</label>
+            </value>
+            <value>
+                <fullName>Comprehensive Environmental Response Compensation and Liability Act</fullName>
+                <default>false</default>
+                <label>Comprehensive Environmental Response Compensation and Liability Act</label>
+            </value>
+            <value>
+                <fullName>Emergency Planning and Community Right-to-Know Act</fullName>
+                <default>false</default>
+                <label>Emergency Planning and Community Right-to-Know Act</label>
+            </value>
+            <value>
+                <fullName>Equal Access to Justice</fullName>
+                <default>false</default>
+                <label>Equal Access to Justice</label>
+            </value>
+            <value>
+                <fullName>Equal Employment Opportunity</fullName>
+                <default>false</default>
+                <label>Equal Employment Opportunity</label>
+            </value>
+            <value>
+                <fullName>Federal Insecticide Act</fullName>
+                <default>false</default>
+                <label>Federal Insecticide Act</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>
